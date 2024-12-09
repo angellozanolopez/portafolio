@@ -3,16 +3,304 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&family=Righteous&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+    <title>Portafolio</title>
     <link rel="stylesheet" href="index.css">
-    <title>Portafolio Github</title>
 </head>
 <body>
-    <h1>PORTAFOLIO GITHUB ANGEL LOZANO</h1>
-    <h1 class="mensaje">PAGINA EN CONSTRUCCION</h1>
-    <h2>SOBRE MI</h2>
-    <p>¡Hola! Soy Angel, un apasionado de la informática y la electrónica que ha sabido transformar su curiosidad en una carrera profesional. Aunque comencé mi trayectoria académica y laboral en el mundo de la Electrónica –con un Grado Medio y un Grado Superior en esta disciplina–, hace tres años decidí dedicarme profesionalmente a mi segundo gran hobby, la informática, después de quedarme desempleado.</p>
-    <p>Desde entonces, he invertido mi tiempo, dinero y esfuerzo en formarme y especializarme. Estudié Informática a distancia en la Universidad de Salamanca, lo que me permitió profundizar en las bases del desarrollo de software y las tecnologías emergentes. Además, domino los lenguajes de programación Python, HTML, CSS, y JavaScript, y tuve la oportunidad de realizar prácticas en una empresa de inteligencia artificial, lo que me permitió adquirir experiencia práctica en un entorno profesional innovador.</p>
-    <p>Mi objetivo es trabajar en una empresa de informática donde pueda aplicar mis conocimientos y seguir desarrollándome profesionalmente. Si es posible, me encantaría combinar mis dos áreas de especialización, informática y electrónica, pero priorizo mi desarrollo en el ámbito informático.</p>
-    <p>Soy una persona comprometida con el aprendizaje continuo, apasionada por la resolución de problemas y con ganas de aportar mis habilidades a proyectos innovadores que marquen la diferencia.</p>
+    <!-- MENU ENCABEZADO -->
+     <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Angel L.</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#sobremi">SOBRE MI</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#curriculum">CURRICULUM</a></li>
+                    <li><a href="#portafolio">PORTAFOLIO</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+     </div>
+     <!-- SECCION INICIO -->
+      <section id="inicio" class="inicio">        
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img class="foto" src="img/yo.jpg" alt="IMAGEN NO ENCONTRADA">
+            </div>
+            <h1>Angel Lozano</h1>
+            <h2>SITIO EN CONSTRUCCION</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+      </section>
+      <!-- SECCION SOBRE MI -->
+       <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mí</h2>
+            <p><span>Hola, soy Angel Lozano</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore perferendis nihil, nam consequatur ipsam laborum in cumque quaerat dignissimos mollitia reprehenderit modi praesentium, nostrum magni odit sunt vel, esse ipsa.</p>
+            <div class="fila">
+                <!-- DATOS PERSONALES -->
+                 <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li><strong>Fecha de nacimiento: </strong>05-07-1977</li>                        
+                    </ul>
+                    <ul>
+                        <li><strong>Telefono: </strong>+34677347408</li>                        
+                    </ul>
+                    <ul>
+                        <li><strong>E-mail: </strong>lozanolopez@gmail.com</li>                        
+                    </ul>
+                    <ul>
+                        <li><strong>Website: </strong>www.lozanolopez.com</li>                        
+                    </ul>
+                    <ul>
+                        <li><strong>Direccion: </strong>Calle inventada, Granada</li>                        
+                    </ul>
+                    <ul>
+                        <li><strong>Cargo: </strong>
+                        <span>FREELANCE</span></li>                        
+                    </ul>
+                 </div>
+                 <!-- INTERESES -->
+                  <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i> <!-- fontawesome -->
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>       
+
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div> 
+
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>                         
+                        
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>                              
+
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LECTURA</span>
+                        </div>        
+
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>COCHES</span>
+                        </div>                                
+
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOGRAFIA</span>
+                        </div>                                 
+
+                    </div>
+                  </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+       </section>
+       <!-- SECCION SKILLS -->       
+       <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical skills -->
+                <div class="col">
+                    <h3>Technical skills</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>      
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso photoshop">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>      
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso wordpress">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>            
+                    <div class="skill">
+                        <span>Otro</span>
+                        <div class="barra-skill">
+                            <div class="progreso otro">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>                                                               
+                </div>       
+                <!-- Professional skills -->
+                <div class="col">
+                    <h3>Professional skills</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso trabajo">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>      
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>      
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>            
+                    <div class="skill">
+                        <span>Otro</span>
+                        <div class="barra-skill">
+                            <div class="progreso proyect">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>                                                               
+                </div>            
+            </div>
+        </div>
+       </section>
+       <!-- SECCION CURRICULUM -->
+       <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2005-2008</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit ea error nam ullam veniam reprehenderit praesentium, nesciunt totam debitis consequuntur, incidunt in ipsum. Saepe vel debitis dignissimos repudiandae fuga sequi?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2005-2008</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit ea error nam ullam veniam reprehenderit praesentium, nesciunt totam debitis consequuntur, incidunt in ipsum. Saepe vel debitis dignissimos repudiandae fuga sequi?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2005-2008</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit ea error nam ullam veniam reprehenderit praesentium, nesciunt totam debitis consequuntur, incidunt in ipsum. Saepe vel debitis dignissimos repudiandae fuga sequi?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>                    
+
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia laboral</h3>
+                    <div class="item der">
+                        <h4>Front developer</h4>
+                        <span class="casa">Nombre de compañia</span>
+                        <span class="fecha">2005-2008</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit ea error nam ullam veniam reprehenderit praesentium, nesciunt totam debitis consequuntur, incidunt in ipsum. Saepe vel debitis dignissimos repudiandae fuga sequi?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Front developer</h4>
+                        <span class="casa">Nombre de compañia</span>
+                        <span class="fecha">2005-2008</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit ea error nam ullam veniam reprehenderit praesentium, nesciunt totam debitis consequuntur, incidunt in ipsum. Saepe vel debitis dignissimos repudiandae fuga sequi?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Front developer</h4>
+                        <span class="casa">Nombre de compañia</span>
+                        <span class="fecha">2005-2008</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit ea error nam ullam veniam reprehenderit praesentium, nesciunt totam debitis consequuntur, incidunt in ipsum. Saepe vel debitis dignissimos repudiandae fuga sequi?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>                   
+
+                </div>
+            </div>
+        </div>
+       </section>
 </body>
 </html>
+
