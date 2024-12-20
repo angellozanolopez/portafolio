@@ -16,14 +16,17 @@ body {
     background-position: center;
     color: #fff; /* Texto blanco para toda la página */
 }
+:root{
+    --color_azul: rgb(23,89,127);
+}
 
 
 /* MENU */
 .contenedor-header{
-    background: rgba(30, 35, 38, 0.9);
+    background: rgba(30, 35, 38, 0.7);
     position: fixed;
     width: 100%;
-    height: 50px;
+    height: 60px;
     top: 0;
     left: 0;
     z-index: 99;
@@ -80,14 +83,14 @@ body {
 
 .inicio .contenido-banner{
     padding: 20px;
-    background-color: #17597f;
+    background-color: rgba(23,89,127,.8);
     max-width: 350px;
     margin-top: 10px;    
     margin: auto;
     text-align: center;
     border: 1px solid white;
     border-radius: 40px;   
-    box-shadow: 0 0 20px white; 
+    box-shadow: 0 0 30px white;     
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
@@ -121,8 +124,7 @@ body {
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    /* background-color: #14d0f6; */
-    background: none;
+    background-color: #14d0f6;    
 }
 
 /* .ola{    
@@ -152,7 +154,6 @@ body {
     font-family: "Titillium Web", serif;
     text-align: center;
     padding: 20px 0;
-
 }
 .sobremi .contenido-seccion p{    
     font: 20px;
@@ -180,23 +181,25 @@ body {
 }
 .sobremi .fila .col ul{
     list-style: none;
+    margin-right: 10px;
 }
 .sobremi .fila .col ul li{
     margin: 12px 0;
-    font-size: 20px;
+    font-size: 18px;
 }
 .sobremi .fila .col ul li strong{
     font-size: 25px;
     display: inline-block;
-    color: #14d0f6;
+    color: var(--color_azul);
     width: 130px;    
+    margin-right: 20px;
 }
-.sobremi .fila .col ul li span{
-    background-color: #14d0f6;
+/* .sobremi .fila .col ul li span{
+    background-color: var(--color_azul);
     padding: 3px;
     font-weight: bold;
-    border-radius: 5px;    
-}
+    border-radius: 5px;        
+} */
 .sobremi .fila .col .contenedor-intereses{
     display: flex;
     flex-wrap: wrap;
@@ -406,9 +409,10 @@ body {
 
 /* SECCION CURRICULUM */
 .curriculum{
-    background-color: #17597f;
-    color: #fff;
+    background: rgba(255,255,255,0.4);
+    color: black;
     padding: 50px 20px;
+    font-weight: bold;
 }
 .curriculum .contenido-seccion{
     max-width: 1100px;
@@ -434,12 +438,12 @@ body {
     font-family: "Titillium Web", serif;
     margin-bottom: 25px;
 }
-.curriculum .fila .izquierda{
+/* .curriculum .fila .izquierda{
     border-right: 2px solid #252A2E;
-}
-.curriculum .fila .derecha{
+} */
+/* .curriculum .fila .derecha{
     border-left: 2px solid #252A2E;
-}
+} */
 .curriculum .fila .item{
     padding: 25px;
     margin-bottom: 30px;
@@ -451,30 +455,31 @@ body {
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color: #14d0f6;
+    color: var(--color_azul);
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .curriculum .fila .item .fecha{
     display: block;
-    color: #14d0f6;
+    color: var(--color_azul);
     margin-bottom: 10px;
+    font-weight: bold;
 }
 .curriculum .fila .item p{
     line-height: 24px;
 }
 .curriculum .fila .izq{
-    border-right: 2px solid #14d0f6;
+    border-right: 2px solid var(--color_azul);
     margin-right: 20px;
 }
 .curriculum .fila .der{
-    border-left: 2px solid #14d0f6;
+    border-left: 2px solid var(--color_azul);
     margin-left: 20px;
 }
 .curriculum .fila .item .conectori{
     height: 2px;
-    background-color: #14d0f6;
+    background-color: var(--color_azul);
     width: 47px;
     position: absolute;
     top: 50%;
@@ -486,14 +491,14 @@ body {
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #14d0f6;
+    background-color: var(--color_azul);
     float: right;
     position: relative;
     bottom: 4px;
 }
 .curriculum .fila .item .conectord{
     height: 2px;
-    background-color: #14d0f6;
+    background-color: var(--color_azul);
     width: 47px;
     position: absolute;
     top: 50%;
@@ -505,7 +510,7 @@ body {
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #14d0f6;
+    background-color: var(--color_azul);
     float: left;
     position: relative;
     bottom: 4px;
