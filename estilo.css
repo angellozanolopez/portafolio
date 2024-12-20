@@ -18,8 +18,15 @@ body {
 }
 :root{
     --color_azul: rgb(23,89,127);
+    --color_fondo_gris: rgba(30, 35, 38, 0.7);
 }
-
+.construccion h2 {
+    color: red;
+    font-size: 48px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: var(--color_fondo_gris);
+}
 
 /* MENU */
 .contenedor-header{
@@ -706,7 +713,7 @@ footer .arriba{
         position: absolute;
         right: 0;
         top: 75px;
-        background-color: transparent;
+        background-color: var(--color_fondo_gris);
         width: 180px;
     }
     nav.responsive ul{
