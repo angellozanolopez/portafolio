@@ -14,20 +14,20 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    color: #fff; /* Texto blanco para toda la página */    
+    color: #fff; /* Texto blanco para toda la página */
 }
 :root{
     --color_azul: rgb(23,89,127);
     --color_fondo_gris: rgba(30, 35, 38, 0.7);
     --fondo_gris_claro: rgba(255,255,255,0.4);
 }
-/* .construccion h2 {
+.construccion h2 {
     color: red;
     font-size: 48px;
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: var(--color_fondo_gris);
-} */
+}
 
 /* MENU */
 .contenedor-header{
@@ -235,15 +235,11 @@ body {
     font-size: 30px;
     margin-bottom: 10px;    
 }
-.sobremi a {
-    text-decoration: none; /* Quita el subrayado del enlace */
-    background-color: transparent; /* Sin fondo */
-}
-
-.sobremi button {
+.sobremi button{
     cursor: pointer;
     background-color: transparent;
     border: 2px solid black;
+    /* border-radius: 5px; */
     width: fit-content;
     display: block;
     margin: 20px auto;
@@ -254,8 +250,7 @@ body {
     position: relative;
     z-index: 10;
 }
-
-.sobremi button .overlay {
+.sobremi button .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -265,13 +260,9 @@ body {
     z-index: -1;
     transition: 1s;
 }
-
-.sobremi button:hover .overlay {
-    width: 100%;
+.sobremi button:hover .overlay{
+    width: 100%;    
 }
-
-
-
 /* SECCION SKILLS */
 .skills{
     /* background-color: #17597f; */
@@ -570,7 +561,7 @@ body {
 }
 
 .portfolio .galeria .proyecto img {
-    width: 250px;
+    width: 350px;
     height: 250px;
     display: block;    
 }
@@ -578,7 +569,7 @@ body {
 .portfolio .galeria .proyecto .overlay{
     position: absolute;
     top: 0;
-    width: 250px;
+    width: 350px;
     height: 250px;
     text-align: center;
     /* background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8)); */
@@ -604,7 +595,7 @@ body {
 }
 /* SECCION CONTACTO */
 .contacto{
-    background-color: var(--fondo_gris_claro);    
+    background-color: transparent;
     color: #fff;
     padding: 50px 0;
 }
@@ -619,41 +610,33 @@ body {
     padding: 20px 0;
 }
 .contacto .fila{
-    display: flex;    
+    display: flex;
 }
 .contacto .col{
     width: 50%;
     padding: 10px;
-    position: relative;    
+    position: relative;
 }
 .contacto .col input, .contacto .col textarea{
     display: block;
     width: 100%;
     padding: 18px;
-    border: 1px solid black;
+    border: 1px solid #14d0f6;    
     margin-bottom: 20px;
     background-color: transparent;
     color: #fff;
     font-size: 18px;
 }
-.contacto .col input::placeholder{
-    color: var(--fondo_gris_claro);
-    font-style: italic;
-}
-.contacto .col textarea::placeholder{
-    color: var(--fondo_gris_claro);
-    font-style: italic;
-}
 .contacto button{
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid black;
+    border: 2px solid #fff;
     width: fit-content;
     display: block;
     margin: 20px auto;
     padding: 10px 22px;
     font-size: 16px;
-    color: black;
+    color: #fff;
     position: relative;
     z-index: 10;
 }
@@ -676,7 +659,7 @@ body {
 .contacto .col .info{
     position: absolute;
     top: 40%;
-    background-color: var(--color_fondo_gris);
+    background-color: transparent;
     padding: 20px;
     max-width: 350px;
     left: 50%;
@@ -694,7 +677,7 @@ body {
     margin-right: 20px;
 }
 footer{
-    background-color: var(--fondo_gris_claro); 
+    background-color: transparent;
     color: #fff;
     padding: 50px 0 30px 0;
     text-align: center;
